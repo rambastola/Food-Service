@@ -1,13 +1,13 @@
 # BC HACK
-An application that keeps track of amount of calories a students need per day.
+An application that keeps track of amount of calories a student need per day.
 
 Inspiration
-Only few students write down the calories intake per food. So we wanted to help every students by making it easy to keep track of how much calories they are consuming. Therefore, we created an application that keeps track of calories students are taking.
+Only few students write down the calories intake per food. So we wanted to help every students by making it easy to keep track of how much calories they are consuming. Therefore, we created an application for it.
 
 What it does
-Our application keeps track of their calories intake by asking the name of food that students are eating. Application will stop running after they have reached their daily limit.
+Our application keeps track of person's calories intake by asking the name of food that a person is eating. Application will stop running after they have reached their daily calories limit.
 
-How we built it
+
 Using EDAMAM's API, we were able to get the calories of every single recipes.
 
 Challenges we ran into

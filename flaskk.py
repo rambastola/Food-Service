@@ -18,19 +18,15 @@ class Food:
         return self.food_calories  # calories of the food
 
     def user_cal(self, foodcalories):
-
         remaining_calories = self.user2 - foodcalories
-
         while remaining_calories > 0:
             second_food = input("another food")
             b = self.cal_count(second_food)
             remaining_calories = remaining_calories - b
-
             if remaining_calories <=0:
                 print ("You have reached your limit for today")
             else:
                 print("Your remaining calories is", remaining_calories)
-
 
 def main():
 

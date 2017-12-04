@@ -9,7 +9,7 @@ class Food:
 
     def cal_count(self,us):
         self.user=us
-        get = requests.get("https://api.edamam.com/search?q=" + us,"&app_id=34e43581&app_key=%20ab719d319c75a45c081aeebdf8d24ec1")
+        get = requests.get("https://api.edamam.com/search?q=" + us,"&app_id=IDDDD&app_key=%KEYYYYYYY")
         data = get.content
         pull = json.loads(data)
         items = pull["q"]

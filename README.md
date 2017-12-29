@@ -1,4 +1,4 @@
-# BC HACK
+# BC HACK - Won first place Hackathon
 An application that keeps track of amount of calories a student need per day.
 
 Inspiration
